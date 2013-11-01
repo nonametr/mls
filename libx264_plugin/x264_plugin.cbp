@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="x264_plugin" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="D:/mls-project/libx264_plugin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="D:/mls-project/libx264_plugin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mlsx264">
+         <Option output="D:/mls-project/Core/plugins/libmlsx264.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/mls-project/libx264_plugin" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/mls-project/libx264_plugin/." />
+            <Add directory="D:/mls-project/libx264_plugin/./mt" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 mlsx264" />
+            <CompileFile command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mlsx264/fast">
+         <Option output="D:/mls-project/Core/plugins/libmlsx264.dll" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/mls-project/libx264_plugin" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="D:/mls-project/libx264_plugin/." />
+            <Add directory="D:/mls-project/libx264_plugin/./mt" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 mlsx264/fast" />
+            <CompileFile command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="D:/mls-project/libx264_plugin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="C:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/libx264_plugin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="D:/mls-project/libx264_plugin/Libx264Encoder.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/encoder_export.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/mt/thread.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/mt/thread_core.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/rgb2yuv.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/Libx264Encoder.h">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/encoder_export.h">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/mt/thread.h">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/mt/thread_core.h">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/rgb2yuv.h">
+      </Unit>
+      <Unit filename="D:/mls-project/libx264_plugin/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

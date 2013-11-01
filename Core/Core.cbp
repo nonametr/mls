@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Core" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\Qt\;CMake Files\Qt\Qt5.0.1\;CMake Files\Qt\Qt5.0.1\5.0.1\;CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\;CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\;CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\;CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Widgets\;CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Gui\;CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Core\;CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Network\;CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Multimedia\;CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Sql\;CMake Files\src\;CMake Files\src\resources\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="D:/mls-project/Core" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="D:/mls-project/Core" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mls">
+         <Option output="D:/mls-project/Core/mls.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/mls-project/Core" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_MULTIMEDIA_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtCore" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtGui" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtMultimedia" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtNetwork" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtSql" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtWidgets" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/mkspecs/win32-g++" />
+            <Add directory="D:/mls-project/Core" />
+            <Add directory="D:/mls-project/Core/../mls_inc" />
+            <Add directory="D:/mls-project/Core/./src" />
+            <Add directory="D:/mls-project/Core/./src/channel" />
+            <Add directory="D:/mls-project/Core/./src/encoder" />
+            <Add directory="D:/mls-project/Core/./src/global" />
+            <Add directory="D:/mls-project/Core/./src/gui" />
+            <Add directory="D:/mls-project/Core/./src/render" />
+            <Add directory="D:/mls-project/Core/./src/render/glew" />
+            <Add directory="D:/mls-project/Core/./src/render/glm" />
+            <Add directory="D:/mls-project/Core/./src/source" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 mls" />
+            <CompileFile command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mls/fast">
+         <Option output="D:/mls-project/Core/mls.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="D:/mls-project/Core" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_MULTIMEDIA_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtCore" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtGui" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtMultimedia" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtNetwork" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtSql" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/include/QtWidgets" />
+            <Add directory="C:/Qt/Qt5.0.1/5.0.1/mingw47_32/mkspecs/win32-g++" />
+            <Add directory="D:/mls-project/Core" />
+            <Add directory="D:/mls-project/Core/../mls_inc" />
+            <Add directory="D:/mls-project/Core/./src" />
+            <Add directory="D:/mls-project/Core/./src/channel" />
+            <Add directory="D:/mls-project/Core/./src/encoder" />
+            <Add directory="D:/mls-project/Core/./src/global" />
+            <Add directory="D:/mls-project/Core/./src/gui" />
+            <Add directory="D:/mls-project/Core/./src/render" />
+            <Add directory="D:/mls-project/Core/./src/render/glew" />
+            <Add directory="D:/mls-project/Core/./src/render/glm" />
+            <Add directory="D:/mls-project/Core/./src/source" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 mls/fast" />
+            <CompileFile command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="mls_automoc">
+         <Option working_dir="D:/mls-project/Core" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 mls_automoc" />
+            <CompileFile command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="D:/mls-project/Core" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Qt/Qt5.0.1/Tools/MinGW/bin/mingw32-make.exe -f &quot;D:/mls-project/Core/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="D:/mls-project/Core/src/channel/ichannel.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/local_recording.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/read_pipe.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/rtmp_channel.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/rtmp_proxy.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/write_pipe.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/encoder/iencoder.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/escape_call_server.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/global.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/json.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/json_value.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/plugin.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/ring_buffer.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/runtime.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/settings.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/value.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_channel.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_config.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_encoder.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_login.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_main.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_main_scene.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_main_source.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_surface_settings.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_updater.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/main_mls.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/render/irender_widget.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/render/isurface.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/render/opengl_render_widget.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/render/opengl_surface.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/source/gl_source.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/source/source.cpp">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/ichannel.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/local_recording.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/read_pipe.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/rtmp_channel.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/rtmp_proxy.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/channel/write_pipe.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/encoder/iencoder.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/escape_call_server.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/global.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/json.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/json_value.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/plugin.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/ring_buffer.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/runtime.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/settings.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/global/value.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_channel.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_config.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_encoder.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_login.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_main.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_surface_settings.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/gui/gui_updater.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/render/irender_widget.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/render/isurface.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/render/opengl_render_widget.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/render/opengl_surface.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/resources/mediaquicksync.qrc">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/source/gl_source.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/source/source.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/ui/mqs_configuration.ui">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/ui/mqs_encoder.ui">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/ui/mqs_login.ui">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/ui/mqs_main.ui">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/ui/mqs_surface_settings.ui">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/ui/mqs_transport.ui">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/ui/mqs_update.ui">
+      </Unit>
+      <Unit filename="D:/mls-project/mls_inc/escape_call.h">
+      </Unit>
+      <Unit filename="D:/mls-project/Core/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/Qt/Qt5.0.1/5.0.1/mingw47_32/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+          <Option virtualFolder="CMake Files\Qt\Qt5.0.1\5.0.1\mingw47_32\lib\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="D:/mls-project/Core/src/resources/mediaquicksync.qrc">
+          <Option virtualFolder="CMake Files\src\resources\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

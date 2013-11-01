@@ -1,0 +1,52 @@
+﻿Build started 14.02.2013 18:51:14.
+     1>Project "d:\qt-projects\eclipse\ws\DirectShowSource\DirectShowDLL\DirectShowDLL.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\DirectShowCapture.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\DirectShowCapture.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX 9.0 SDK (Summer 2004)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DIRECTSHOWDLL_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX 9.0 SDK (Summer 2004)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DIRECTSHOWDLL_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DSCapture.cpp source_export.cpp video_capture_ds.cpp
+         video_capture_ds.cpp
+         source_export.cpp
+     1>d:\qt-projects\eclipse\ws\directshowsource\directshowdll\source_export.cpp(44): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>d:\qt-projects\eclipse\ws\directshowsource\directshowdll\source_export.cpp(52): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+         DSCapture.cpp
+     1>d:\qt-projects\eclipse\ws\directshowsource\directshowdll\dscapture.cpp(25): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>d:\qt-projects\eclipse\ws\directshowsource\directshowdll\dscapture.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\qt-projects\eclipse\ws\directshowsource\directshowdll\dscapture.cpp(43): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DirectShowCapture.dll.embed.manifest.res" Debug\DirectShowCapture_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DirectShowCapture.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.lib" /MACHINE:X86 /DLL Debug\DirectShowCapture.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\DSCapture.obj
+         Debug\source_export.obj
+         Debug\video_capture_ds.obj
+            Creating library D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.lib and object D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.exp
+       Manifest:
+         Deleting file "Debug\DirectShowCapture.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DirectShowCapture.dll.embed.manifest" /manifest Debug\DirectShowCapture.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DirectShowCapture.dll.embed.manifest.res" Debug\DirectShowCapture_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DirectShowCapture.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.lib" /MACHINE:X86 /DLL Debug\DirectShowCapture.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\DSCapture.obj
+         Debug\source_export.obj
+         Debug\video_capture_ds.obj
+            Creating library D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.lib and object D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.exp
+         DirectShowDLL.vcxproj -> D:\qt-projects\eclipse\ws\DirectShowSource\Debug\DirectShowCapture.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\DirectShowCapture.unsuccessfulbuild".
+         Touching "Debug\DirectShowCapture.lastbuildstate".
+     1>Done Building Project "d:\qt-projects\eclipse\ws\DirectShowSource\DirectShowDLL\DirectShowDLL.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.03

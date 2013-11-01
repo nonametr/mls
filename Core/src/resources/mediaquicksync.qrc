@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="/MediaQuickSync/resources">
+    <file>1353018877_kmencoder.png</file>
+    <file>channel_baner.png</file>
+    <file>MediaQuickSync.ico</file>
+    <file>radeon.png</file>
+    <file>mqs.png</file>
+    <file>1353017205_xine.png</file>
+    <file>AMD.png</file>
+    <file>intel.jpg</file>
+    <file>audio-input-microphone.png</file>
+    <file>audio-volume-high.png</file>
+    <file>combobox-arrow-down-2x.png</file>
+    <file>GoContactSyncLogo.ico</file>
+    <file>power_off_black.png</file>
+    <file>login.jpg</file>
+    <file>login-button.png</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file>resolution_config.png</file>
+    <file>logo/[HW] AMD VCE.png</file>
+    <file>logo/[HW] Intel QuickSync.png</file>
+    <file>logo/[HW] NVIDIA CUDA.png</file>
+    <file>logo/[SW] FFMPEG.png</file>
+  </qresource>
+</RCC>

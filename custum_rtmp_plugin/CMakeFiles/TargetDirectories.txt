@@ -1,0 +1,2 @@
+D:/mls-project/custum_rtmp_plugin/CMakeFiles/mlscustomrtmpchannel.dir
+D:/mls-project/custum_rtmp_plugin/CMakeFiles/mlscustomrtmpchannel_automoc.dir

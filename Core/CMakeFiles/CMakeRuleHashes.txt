@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+6123886eb54811dded150fd0a759257a CMakeFiles/mls_automoc
+d719c59ef92777733c284d05e3c05643 qrc_mediaquicksync.cpp
+7d62d6a2231a68cec08c8c1be4b2b5fd ui_mqs_configuration.h
+ee4e1132acd42a8d9ca44dfc7859fe3c ui_mqs_encoder.h
+cd4690deec6833a75a2dfbb32241b063 ui_mqs_login.h
+87e05ef4236074e14f9eb717a48dafaa ui_mqs_main.h
+0e0ebc12c33b7789f8d3dd0345229836 ui_mqs_surface_settings.h
+fc5505d4c623a7ac84c26c62e3c531e3 ui_mqs_transport.h
+7a15daf6b5f0795cb017686846ae1823 ui_mqs_update.h

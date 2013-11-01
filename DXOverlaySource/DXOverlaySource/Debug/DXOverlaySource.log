@@ -1,0 +1,62 @@
+﻿Build started 14.02.2013 19:44:53.
+     1>Project "d:\qt-projects\eclipse\ws\DXOverlaySource\DXOverlaySource\DXOverlaySource.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\DXOverlaySource.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\DXOverlaySource.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DXOVERLAYSOURCE_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DXOverlaySource.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DXOVERLAYSOURCE_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DXOVERLAYSOURCE_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DXOverlaySource.cpp source_export.cpp
+         source_export.cpp
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\source_export.cpp(26): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+         DXOverlaySource.cpp
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\dxoverlaysource.cpp(42): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\dxoverlaysource.cpp(100): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\dxoverlaysource.cpp(107): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\dxoverlaysource.cpp(114): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\dxoverlaysource.cpp(124): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\dxoverlaysource.cpp(151): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\dxoverlaysource.cpp(181): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(157) : see declaration of 'strerror'
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\dxoverlaysource.cpp(186): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\qt-projects\eclipse\ws\dxoverlaysource\dxoverlaysource\dxoverlaysource.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DXOverlaySource.dll.embed.manifest.res" Debug\DXOverlaySource_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DXOverlaySource.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.lib" /MACHINE:X86 /DLL Debug\DXOverlaySource.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\DXOverlaySource.obj
+         Debug\source_export.obj
+         Debug\stdafx.obj
+            Creating library D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.lib and object D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.exp
+       Manifest:
+         Deleting file "Debug\DXOverlaySource.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DXOverlaySource.dll.embed.manifest" /manifest Debug\DXOverlaySource.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\DXOverlaySource.dll.embed.manifest.res" Debug\DXOverlaySource_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DXOverlaySource.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.lib" /MACHINE:X86 /DLL Debug\DXOverlaySource.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\DXOverlaySource.obj
+         Debug\source_export.obj
+         Debug\stdafx.obj
+            Creating library D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.lib and object D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.exp
+         DXOverlaySource.vcxproj -> D:\qt-projects\eclipse\ws\DXOverlaySource\Debug\DXOverlaySource.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\DXOverlaySource.unsuccessfulbuild".
+         Touching "Debug\DXOverlaySource.lastbuildstate".
+     1>Done Building Project "d:\qt-projects\eclipse\ws\DXOverlaySource\DXOverlaySource\DXOverlaySource.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.24
